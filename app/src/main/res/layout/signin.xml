@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone"
+        android:id="@+id/userphoneSignIn"
+        android:hint="Введите мобильный номер"
+        android:textSize="15dp"
+        android:paddingTop="150dp"
+        android:inputType="phone"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:drawableLeft="@drawable/ic_sms"
+        android:layout_below="@+id/userphoneSignIn"
+        android:id="@+id/usersmsSingIn"
+        android:layout_width="300dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Введите код подтверждения"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usersmsSingIn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Войти"
+        android:id="@+id/signIn"/>
+</RelativeLayout>

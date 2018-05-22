@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:id="@+id/relLayout">
+
+    <!--<EditText-->
+        <!--android:hint="Введите основную информацию"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/titleOrder"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:id="@+id/addLocation"-->
+        <!--android:layout_below="@+id/titleOrder"-->
+        <!--android:textSize="15dp"-->
+        <!--android:hint="Добавьте адрес"-->
+        <!--android:gravity="center"-->
+        <!--android:drawableRight="@drawable/ic_location"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/addLocation"-->
+        <!--android:id="@+id/date"-->
+        <!--android:hint="Установите дату"-->
+        <!--android:gravity="center"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@+id/date"-->
+        <!--android:layout_below="@+id/addLocation"-->
+        <!--android:id="@+id/time"-->
+        <!--android:hint="Время"-->
+        <!--android:gravity="center"/>-->
+    <!--<EditText-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/date"-->
+        <!--android:id="@+id/squareM"-->
+        <!--android:inputType="number"-->
+        <!--android:hint="м²"-->
+        <!--android:gravity="center"-->
+        <!--android:maxLines="1"/>-->
+    <!--<EditText-->
+        <!--android:inputType="number"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_below="@+id/date"-->
+        <!--android:layout_toRightOf="@+id/squareM"-->
+        <!--android:id="@+id/price"-->
+        <!--android:hint="Введите цену"-->
+        <!--android:gravity="center"-->
+        <!--android:maxLines="1"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_toRightOf="@+id/price"-->
+        <!--android:layout_below="@+id/time"-->
+        <!--android:text="тг"-->
+        <!--android:textSize="15sp"-->
+        <!--android:gravity="bottom|center"/>-->
+    <!--<TextView-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/squareM"-->
+        <!--android:text="Добавьте фото"-->
+        <!--android:textSize="15sp"-->
+        <!--android:id="@+id/TvChooseImg"/>-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_toRightOf="@+id/TvChooseImg"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@+id/price"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/ic_image"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/chooseImg"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@+id/TvChooseImg"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_above="@+id/add"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/imageOrder"/>&ndash;&gt;-->
+    <!--<Button-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/add"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@drawable/round_button"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:text="Добавить"/>-->
+
+</RelativeLayout>
